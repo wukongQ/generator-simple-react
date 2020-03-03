@@ -10,12 +10,7 @@ module.exports = merge(Base, {
     filename: 'js/[hash]_bundle.js',
     publicPath: '/'
   },
-  resolve: {
-    alias: {
-      'react': 'react/cjs/react.production.min.js',
-      'react-dom': 'react-dom/cjs/react-dom.production.min.js'
-    }
-  },
+  resolve: {},
   devServer: {
     host: 'localhost',
     port: 8880,
