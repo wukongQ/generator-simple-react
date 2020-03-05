@@ -1,6 +1,6 @@
 {
   "name": "generator-simple-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "create a simple react project",
   "main": "generators/app/index.js",
   "scripts": {
