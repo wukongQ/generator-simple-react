@@ -65,11 +65,6 @@ module.exports = class extends Generator {
       this.answers
     )
     this.fs.copyTpl(
-      this.templatePath('package-lock.json'),
-      this.destinationPath('package-lock.json'),
-      this.answers
-    )
-    this.fs.copyTpl(
       this.templatePath('postcss.config.js'),
       this.destinationPath('postcss.config.js')
     )
