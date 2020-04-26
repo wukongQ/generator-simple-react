@@ -11,6 +11,9 @@ module.exports = merge(Base, {
     publicPath: '/'
   },
   resolve: {},
+  watchOptions: {
+    ignored: /node_modules/
+  },
   devServer: {
     host: 'localhost',
     port: 8880,
