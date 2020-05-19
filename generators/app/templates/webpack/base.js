@@ -84,10 +84,7 @@ module.exports = {
         }, {
           loader: 'less-loader',
           options: {
-            javascriptEnabled: true,
-            modifyVars: {
-              'primary-color': '#FF7200'
-            }
+            javascriptEnabled: true
           }
         }]
       },
@@ -111,7 +108,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Modi',
+      title: '',
       template: './index.ejs',
       favicon: './favicon.ico'
     })
